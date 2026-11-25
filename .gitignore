@@ -1,0 +1,24 @@
+# Gradle & build outputs
+.gradle/
+build/
+app/build/
+*/build/
+
+# Local config
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep Gradle Wrapper JAR and release/debug APK deliverable tracked
+!gradle/wrapper/gradle-wrapper.jar
+!apk/*.apk
